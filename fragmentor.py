@@ -1,17 +1,3 @@
-# import pandas as pd
-
-# df = pd.read_excel('Cars.xlsx', sheet_name='Sheet1')
-
-# new_df = pd.DataFrame(columns=['Code', 'PersianName', 'CarModel'])
-
-# for i, row in df.iterrows():
-#     carModels = row['CarModels'].split(',')
-    
-#     for carModel in carModels:
-#         new_df = new_df.append({'Code': row['Code'], 'PersianName': row['PersianName'], 'CarModel': carModel}, ignore_index=True)
-
-# new_df.to_excel('new_cars.xlsx', index=False)
-
 
 import pandas as pd
 
